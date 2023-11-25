@@ -1,3 +1,16 @@
+<?php
+
+include('track_service_visit.php');
+// Initialize an empty array for visited services
+$visited_services = array();
+
+// Check if the cookie exists
+if (isset($_COOKIE['visited_services'])) {
+    // Unserialize the cookie to get the array of visited services
+    $visited_services = unserialize($_COOKIE['visited_services']);
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,10 +35,15 @@
     <section class="services">
         <h2>What We Offer</h2>
         <ul>
-            <li>Wide Selection of Mobile Devices</li>
-            <li>Accessories and Gadgets</li>
-            <li>Device Repairs and Maintenance</li>
-            <li>Technical Support and Consultation</li>
+            <li><a href="Iphone 15 pro Max.php">Iphone 15 pro Max</a></li>
+            <li><a href="Iphone 15 PLUS.php">Iphone 15 PLUS</a></li>
+            <li><a href="Iphone 15 pro.php">Iphone 15 pro</a></li>
+            <li><a href="Apple Desktop 44 Inches.php">Apple Desktop 44 Inches</a></li>
+            <li><a href="Air Pods.php">Air Pods</a></li>
+            <li><a href="Ipod.php">Ipod</a></li>
+            <li><a href="Iphone 14 pro Max.php">Iphone 14 pro Max</a></li>
+            <li><a href="Iphone 14 PLUS.php">Iphone 14 PLUS</a></li>
+            <li><a href="Iphone 14 pro.php">Iphone 14 pro</a></li>
         </ul>
     </section>
 
