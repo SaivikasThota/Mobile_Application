@@ -1,7 +1,7 @@
 <?php
 // This should be the name of the service
-$service_name = 'Cultural Immersion Programs'; // Replace with the actual service name
-$service_price = ' $2,000 per person';
+$service_name = 'Iphone 14 pro'; // Replace with the actual service name
+$service_price = ' $800 per person';
 // Include the tracking function and track the visit
 include('track_service_visit.php');
 track_service_visit($service_name);
@@ -37,9 +37,9 @@ track_service_visit($service_name);
         <main class="service-container">
             <div class="service-container">
                 <h1 class="service-heading"><?php echo htmlspecialchars($service_name); ?></h1>
-                <img src="../cultural_immersion_programs.jpeg" alt="<?php echo htmlspecialchars($service_name); ?>" class="service-image">
+                <img src="../iphone 14 pro.webp" alt="<?php echo htmlspecialchars($service_name); ?>" class="service-image">
                 <p class="service-description">
-                Immerse yourself completely with our Cultural Immersion Programs. Live like a local, learn new languages, partake in traditional workshops, and gain deep insights into unique cultural practices.
+                Iphone 14 pro is on of the premium obiles with triple cameras
                 </p>
                 <div class="service-price">
                     <h3>Price:<?php echo htmlspecialchars($service_price); ?></h3>

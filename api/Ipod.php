@@ -1,7 +1,7 @@
 <?php
 // This should be the name of the service
-$service_name = 'World Explorer Tours'; // Replace with the actual service name
-$service_price = ' $7,000 per person';
+$service_name = 'Ipod'; // Replace with the actual service name
+$service_price = ' $200';
 // Include the tracking function and track the visit
 include('track_service_visit.php');
 track_service_visit($service_name);
@@ -37,9 +37,9 @@ track_service_visit($service_name);
         <main class="service-container">
             <div class="service-container">
                 <h1 class="service-heading"><?php echo htmlspecialchars($service_name); ?></h1>
-                <img src="../world_explorer_tours.jpeg" alt="<?php echo htmlspecialchars($service_name); ?>" class="service-image">
+                <img src="../ipods.webp" alt="<?php echo htmlspecialchars($service_name); ?>" class="service-image">
                 <p class="service-description">
-                Become a global traveler with our World Explorer Tours. Journey to multiple countries, experience diverse cultures, and see the wonders of the world on a single, all-encompassing voyage.
+                Best Sound Quality
                 </p>
                 <div class="service-price">
                     <h3>Price:<?php echo htmlspecialchars($service_price); ?></h3>

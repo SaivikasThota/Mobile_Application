@@ -1,7 +1,7 @@
 <?php
 // This should be the name of the service
-$service_name = 'Cruise and Island Escapes'; // Replace with the actual service name
-$service_price = ' $2,200 per person';
+$service_name = 'Apple Desktop 44 Inches'; // Replace with the actual service name
+$service_price = ' $2,200';
 // Include the tracking function and track the visit
 include('track_service_visit.php');
 track_service_visit($service_name);
@@ -37,9 +37,9 @@ track_service_visit($service_name);
         <main class="service-container">
             <div class="service-container">
                 <h1 class="service-heading"><?php echo htmlspecialchars($service_name); ?></h1>
-                <img src="../cruise_and_island_escapes.jpeg" alt="<?php echo htmlspecialchars($service_name); ?>" class="service-image">
+                <img src="../apple monitor.jpg" alt="<?php echo htmlspecialchars($service_name); ?>" class="service-image">
                 <p class="service-description">
-                Set sail on a voyage of discovery with our Cruise and Island Escapes. Discover tropical paradises, enjoy on-board entertainment, and island-hop to some of the world's most pristine beaches.
+                Fine Desktop
                 </p>
                 <div class="service-price">
                     <h3>Price:<?php echo htmlspecialchars($service_price); ?></h3>

@@ -1,7 +1,7 @@
 <?php
 // This should be the name of the service
-$service_name = 'Adventure Quests'; // Replace with the actual service name
-$service_price = ' $1,800 per person';
+$service_name = 'Iphone 14 PLUS'; // Replace with the actual service name
+$service_price = ' $900';
 // Include the tracking function and track the visit
 include('track_service_visit.php');
 track_service_visit($service_name);
@@ -37,9 +37,9 @@ track_service_visit($service_name);
         <main class="service-container">
             <div class="service-container">
                 <h1 class="service-heading"><?php echo htmlspecialchars($service_name); ?></h1>
-                <img src="../adventure_quests.jpeg" alt="<?php echo htmlspecialchars($service_name); ?>" class="service-image">
+                <img src="../iPhone 14 Plus.webp" alt="<?php echo htmlspecialchars($service_name); ?>" class="service-image">
                 <p class="service-description">
-                Join our Adventure Quests for the ultimate challenge. Trek through jungles, climb towering peaks, or kayak through rapids. These journeys are designed to test your limits and invigorate your spirit.
+                Best Deal to have it under 1000
                 </p>
                 <div class="service-price">
                     <h3>Price:<?php echo htmlspecialchars($service_price); ?></h3>

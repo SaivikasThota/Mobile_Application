@@ -1,7 +1,7 @@
 <?php
 // This should be the name of the service
-$service_name = 'City Break Deals'; // Replace with the actual service name
-$service_price = ' $1,200 per person';
+$service_name = 'Iphone 14 pro Max'; // Replace with the actual service name
+$service_price = ' $1000 per person';
 // Include the tracking function and track the visit
 include('track_service_visit.php');
 track_service_visit($service_name);
@@ -37,9 +37,9 @@ track_service_visit($service_name);
         <main class="service-container">
             <div class="service-container">
                 <h1 class="service-heading"><?php echo htmlspecialchars($service_name); ?></h1>
-                <img src="../city_break_deals.jpg" alt="<?php echo htmlspecialchars($service_name); ?>" class="service-image">
+                <img src="../14 pro max.jpeg" alt="<?php echo htmlspecialchars($service_name); ?>" class="service-image">
                 <p class="service-description">
-                Escape the routine with our City Break Deals. Dive into the hustle and bustle of the world's greatest cities, explore museums, theatres, restaurants, and shop at the most famous districts.
+                Great mobile with in affordable price
                 </p>
                 <div class="service-price">
                     <h3>Price:<?php echo htmlspecialchars($service_price); ?></h3>
