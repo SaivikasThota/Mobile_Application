@@ -46,7 +46,11 @@ if (isset($_COOKIE['visited_services'])) {
             <li><a href="Iphone 14 pro.php">Iphone 14 pro</a></li>
         </ul>
     </section>
-
+    <!-- Recently Visited Services -->
+    <section class="recently-visited-services">
+        <h3>Recently Visited Services</h3>
+        <?php display_last_visited_services(); ?>
+    </section>
     <!-- Additional content for the services page goes here -->
 
     <footer>
