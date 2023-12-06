@@ -16,6 +16,7 @@
             <li><a href="services.php">Services</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="secure.php">Secure</a></li>
+            <li><a href="CurlUsers.php">CurlUsers</a></li>
         </ul>
     </nav>
 
